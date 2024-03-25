@@ -1,0 +1,67 @@
+body{
+        padding: 0;
+        margin: 0;
+        font-family: sans-serif;
+        background-image: url(/firstpage/SL-113022-54210-35.jpg);
+        background-size:cover ;
+        font-family: cursive;
+    }
+
+    .container .shape {
+        background-color: rgb(255, 255, 255);
+        width: 900px;
+        height: 500px;
+        margin-left: 230px;
+        margin-top: 50px;
+        border-radius: 15px;
+        position: relative;
+        
+    }
+    .container .shape img {
+        width: 500px;
+        height: 500px;
+    }
+    .container .shape h2{
+        margin-top: -450px;
+        margin-left: 600px;
+        font-weight: bold;
+    }
+    .container  input{
+        margin-left: 520px;
+        margin-top: 75px;
+        width: 250px;
+        height: 30px;
+        border: none;
+        color: black;
+        border-bottom: 2px rgb(194, 16, 16) solid;
+    }
+    .container input:focus {
+    outline: none;
+    }
+    .container .shape .email h3{
+        font-size: small;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 520px;
+        margin-top: -215px;
+    }
+
+    .container .shape .password h3{
+        font-size: small;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 520px;
+        margin-top: 95px;
+    }
+    .container .shape .button button {
+        width: 150px;
+        height: 45px;
+        margin-left: 579px;
+        margin-top: 15px;
+        background-color: rgb(48, 48, 135);
+        border: none;
+        border-radius: 20px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+    }
