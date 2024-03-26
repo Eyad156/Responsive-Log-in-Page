@@ -6,7 +6,7 @@ function handleSubmit(event) {
 
     if (email === 'Admin@gmail.com' && password === 'admin123') {
         
-        window.location.href = '/firstpage/login.html';
+        window.location.href = '/secondpage/login.html';
     } 
     else {
         alert('Invalid email or password. Please try again.');

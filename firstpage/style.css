@@ -2,7 +2,7 @@ body{
         padding: 0;
         margin: 0;
         font-family: sans-serif;
-        background-image: url(/firstpage/SL-113022-54210-35.jpg);
+        background-image: url(/secondpage/5345522.jpg);
         background-size:cover ;
         font-family: cursive;
     }
@@ -58,10 +58,14 @@ body{
         height: 45px;
         margin-left: 579px;
         margin-top: 15px;
-        background-color: rgb(48, 48, 135);
+        background-color: rgb(2, 2, 45);
         border: none;
         border-radius: 20px;
         color: white;
         font-weight: bold;
         font-size: 18px;
+        transition: 1ms;
+    }
+    .container .shape .button-1 button:hover {
+        background-color: rgb(1, 30, 160);
     }
